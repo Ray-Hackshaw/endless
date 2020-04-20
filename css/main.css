@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    body {
+      margin-left: auto;
+      padding-right: auto;
+    }
+  }
+
+
+body {
+    text-align: left;
+    width: auto;
+    margin-left: 33%;
+    padding-right: 33%;
+}
+
+pre {
+    white-space: pre-line;
+    word-wrap: break-word;
+  }
+
+div {
+    display: block;
+}
+
+div .projects {
+    white-space: pre-line;
+    word-wrap: break-word;
+}
+
+.endless {
+    text-align: center;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <!-- Have the onload access all the list of headers for the navbar
+        Navbar can then be automatically constructed !--> 
+		<title>Endless</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="css/main.css" />
+	</head>
+    <body>
+        <div class="about">
+            <h1 class="endless">ENDLESS</h1>
+            Endless is a catalogue of work and backlog of previous projects, as well as a hub for resources I find useful and/or interesting.
+            I wanted a platform to better explain my ideas and reasoning for personal projects, more than just what lives on Github.
+            I wanted to have everything as a stream of ideas that were all in one place - "endless".
+            It is updated periodically with any new projects as well as changes to old work I may have revisited.
+            Currently this exists through a subdomain of my website, however I am looking to migrate this elsewhere soon.
+            <p>Last update: 17/04/2020</p>
+        </div>
+        
+        <div class="projects">
+            <h1 class="endless">Projects</h1>
+            <h2>Kogan Coding Recruitment Challenge</h2>
+            Invited to participate in a recruitment challenge for Kogan, an Australian congolmerate, for the role of a developer.
+            The challenge consisted of a single API endpoint that would have to be used in order to retrieve and handle a mock
+            AWS JSON object, which would then be filtered based on a certain property. The challenge wanted a calculation of the average cubic
+            weight of all air conditing units present in the endpoint.
+            <p></p>
+            Although I did not progress further, the project was enjoyable and taught me more about handling API endpoint objects.
+            It is worth noting that the site is currently broken, due to security performance issues, given that the enpoint
+            provided was with HTTP rather than HTTPS. I may come back to this in the future to try and edit my approach in order
+            to make it functional again, however it is not a priority of mine at this current stage.
+            <h2>'goodbye' - font updater project</h2>
+            Personal project focused on experimenting with JavaScript driven CSS changes, specifically changing text elements, including font families
+            and replacing the words automatically. The words are fed from an array of variations of 'goodbye' in a variety of different languages.
+            The implementation is still very basic/naive. I am looking to develop this idea further in efforts to push for more of an
+            automated approach.
+            <p></p>
+            In future, I want to develop a similar idea which is much more polished and thorough. The elements should be able to be added to/removed from
+            easily without a need for manual array changes. On top of this, the current design struggles with media design queries, which is an area I would love
+            to work on and learn more about, as well as building upon more general CSS knowledge.
+            <h2>'nights' - onlick and button hover experiments</h2>
+            Testing basic button onclick and hover functionality with replacing HTML/CSS elements. I wanted something that implemented buttons with both
+            onclick and hover changes. The button retrieves it's contents from a pre-defined array which, upon reaching it's end, changes to a 'final' text
+            element which marks that you have reached the end of the array. After clicking this final button once more, the page resets and the array
+            parsing begins again.
+            <p></p>
+            The design could be much more efficient, and I wish to develop another version of this same idea however without taking such a naive approach.
+            Another stipulation I have with this project is the lack of responsive mobile design/functionality. Coming back to this in the future
+            to hopefully change and redesign this for both desktop and mobile compatability.
+            <h2>'redthread' - count-up timer implementation</h2>
+            One of the first personal projects I worked on. It took inspiration from a few basic count-up timer designs from codepen, however the
+            majority of it's design can be found <a href="https://guwii.com/bytes/count-date-time-javascript/">here</a>. 
+            The purpose of the design was to be able to count-up indefinitely given a certain date as a start point. There did exist certain
+            other implementations of the same design, yet most did not run indefinitely (would always start from onload at a value of 0) and would only run
+            using retrieval of the current date. I also wished to include a milliseconds value to the timer, which I could not find in anyone else's designs.
+            The runner gif was taken from taking multiple frames from a section of <a href="https://www.youtube.com/watch?v=MHMdv2D7ndc">this</a> video, where I
+            used 8 frames, carving out the running figure, redesigning and compiling the images, eventually using this as a model for my runner.
+            <p></p>
+            The timer is counting from a date which has significant sentimental value to me, and the idea was structured around the Chinese/Japanese legend
+            regarding the red thread of fate. The initial intent was to have a silhoutte running chasing a red thread, with the timer captioned by: 
+            "He has been chasing his red thread for ____ amount of time" etc. The site is important more as a personal milestone rather than anything
+            else, and so although I would still like to make some design improvements, as long it remains functional I will be happy.
+            <h2>readingsupply</h2>
+
+            <h2>Handling string conversion and variable storage within assembly language</h2>
+
+            <h2>Binary, integer, 16 bit floating point formatting using Python</h2>
+
+            <h2>Human Centred Design - Prototyping and Usability Evaluation</h2>
+
+            <h2>Creating a parallelised merge sort algorithm within C</h2>
+
+            <h2>Ubuntu user space file systems in Java (Maven)</h2>
+
+            <h2>Python memory filler programming and Linux behaviour</h2>
+
+            <h2>Preproccessing a dataset and using the Naive Bayes classifier in Machine Learning</h2>
+
+            <h2>Clustering techniques to identify groupings within a dataset</h2>
+
+            <h2>Data stream mining techniques and algorithm performance tests</h2>
+
+            <h2>Museum of computing web application development</h2>
+
+            <h2>User authentication and penetration testing exercise</h2>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+
+
+        <div class="resources">
+            <h1 class="endless">Resources</h1>
+                <h2>Github VSCode Synchronisation</h2>
+                <a href="https://www.linkedin.com/in/nathaniel-avery-2a43574" target="_blank">Credit to Nathaniel Avery</a>
+                <ol>
+                    <li>Create a directory on the local file system.</li>
+                    <li>Create a repo on Github.</li>
+                    <li>Select Clone "Clone or download" on Github, copy the link</li>
+                    <li>In Visual Studio Code, sect File -> Add Folder to Workspace -> Select the newly created directory</li>
+                    <li>Type into the terminal:</li>
+                </ol>
+                <pre>
+                git config --global user.name &lt;github userID&gt;
+                (https://api.github.com/users/&lt;username&gt;)
+                git clone &lt;URL from github link copied earlier&gt;
+                </pre>
+                
+                <h2>Basic HTML Structure Template</h2>
+                <p>A basic HTML document structure, acting as a template resource for any new projects.</p>
+                <pre>
+                &lt;!DOCTYPE HTML&gt;
+                &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;&lt;title/&gt;
+                        &lt;meta charset="utf-8"&gt;
+                        &lt;meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /&gt;
+                        &lt;link rel="stylesheet" href="css/main.css" /&gt;
+                    /head&gt;
+                    &lt;body&gt;
+                        &lt;script src="js/main.js"&gt;&lt;/script&gt;
+                    &lt;/body&gt;
+                &lt;/html&gt;
+                </pre>
+        </div>
+
+        <script src="js/main.js"></script>
+	</body>
+</html>
