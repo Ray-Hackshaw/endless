@@ -1,8 +1,6 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-        <!-- Have the onload access all the list of headers for the navbar
-        Navbar can then be automatically constructed !--> 
 		<title>Endless</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -13,10 +11,9 @@
             <h1 class="endless">ENDLESS</h1>
             Endless is a catalogue of work and backlog of previous projects, as well as a hub for resources I find useful and/or interesting.
             I wanted a platform to better explain my ideas and reasoning for personal projects, more than just what lives on Github.
-            I wanted to have everything as a stream of ideas that were all in one place - "endless".
+            I wanted to have everything as a stream of ideas that were all in one place.
             It is updated periodically with any new projects as well as changes to old work I may have revisited.
-            Currently this exists through a subdomain of my website, however I am looking to migrate this elsewhere soon.
-            <p>Last update: 20/04/2020</p>
+            <p>Currently this exists through a subdomain of my website, however I am looking to migrate this elsewhere soon. Last update: 18/05/2020</p>
         </div>
         
         <div class="projects">
@@ -91,7 +88,7 @@
             subsequently be converted into a respective binary/float output which would be checked against a STDOUT.
             The proccesses themselves were simple, involving a lot of basic Python input handling routines, including nested ifs, string slicing and indexxing.
             <p></p>
-            The project gave ma a lot of confidence in my understanding of Python, particularly building upon strengths and techniques that I had developed during my first
+            The project gave me a lot of confidence in my understanding of Python, particularly building upon strengths and techniques that I had developed during my first
             year of university. While the code is far from elegant, it was significant as a stepping stone for my further development and understanding of other
             programming languages, as well as progressing my Python proficiency.
             
@@ -131,6 +128,14 @@
                 <ol>
                     <li>Create a directory on the local file system.</li>
                     <li>Create a repo on Github.</li>
+                    <pre>
+                    echo "# name_of_repo_here" >> README.md
+                    git init
+                    git add README.md
+                    git commit -m "first commit"
+                    git remote add origin https://github.com/Ray-Hackshaw/(name_of_repo_here).git
+                    git push -u origin master
+                    </pre>
                     <li>Select Clone "Clone or download" on Github, copy the link</li>
                     <li>In Visual Studio Code, sect File -> Add Folder to Workspace -> Select the newly created directory</li>
                     <li>Type into the terminal:</li>
