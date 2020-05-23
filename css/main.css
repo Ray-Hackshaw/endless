@@ -1,18 +1,6 @@
-/* @media (max-width: 480px) {
-    body {
-      width: 100%;
-      margin-left: 0px;
-      margin-right: 0px;
-      text-align: left;
-      margin-left: 33%;
-      padding-right: 0%;
-    }
-  } */
 
 
 body {
-    text-align: left;
-    width: auto;
     margin-left: 33%;
     margin-right: 33%;
 }
@@ -33,4 +21,12 @@ div .projects {
 
 .endless {
     text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+  }
 }
