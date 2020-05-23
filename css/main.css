@@ -1,26 +1,26 @@
 
-
 body {
-    margin-left: 33%;
-    margin-right: 33%;
+  font-family: Century, Helvetica, sans-serif;
+  margin-left: 33%;
+  margin-right: 33%;
 }
 
 pre {
-    white-space: pre-line;
-    word-wrap: break-word;
-  }
+  white-space: pre-line;
+  word-wrap: break-word;
+}
 
 div {
-    display: block;
+  display: block;
 }
 
 div .projects {
-    white-space: pre-line;
-    word-wrap: break-word;
+  white-space: pre-line;
+  word-wrap: break-word;
 }
 
 .endless {
-    text-align: center;
+  text-align: center;
 }
 
 @media all and (max-width: 600px) {
