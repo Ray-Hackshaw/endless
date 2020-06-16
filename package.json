@@ -1,0 +1,25 @@
+{
+  "name": "endless",
+  "version": "1.0.0",
+  "description": "An endless timeline resource and backlog for previous work, with explanations for each piece.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray-Hackshaw/endless.git"
+  },
+  "author": "Ray Hackshaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ray-Hackshaw/endless/issues"
+  },
+  "homepage": "https://github.com/Ray-Hackshaw/endless#readme",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "lodash": "^4.17.15",
+    "lodash.update": "^4.10.2",
+    "tailwindcss": "^1.4.6"
+  }
+}
