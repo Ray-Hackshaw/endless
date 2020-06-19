@@ -4,7 +4,8 @@
   "description": "An endless timeline resource and backlog for previous work, with explanations for each piece.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build:css": "tailwind build assets/styles.css -o css/styles.css"
   },
   "repository": {
     "type": "git",
