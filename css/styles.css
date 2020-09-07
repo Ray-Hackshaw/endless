@@ -33,7 +33,7 @@ main {
   display: block;
   border: 1px solid rgba(209, 208, 208, 0.5);
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, .4);
+  background-color: rgba(255, 255, 255, .5);
   z-index: -1;
   box-shadow: 0px 3px rgba(75, 67, 67, 0.2);
   overflow-y: scroll;
@@ -44,16 +44,15 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+
 @font-face {
-  font-family: 'Red-Velvetica';
-  src: url(assets/RedVelvetica-ShadowsBold.ttf);
-  font-style: normal;
-  font-weight: 100;
+  font-family: redvelvet;
+  src: url(RedVelvetica-ShadowsBold.ttf);
 }
 
 
 h1 {
-  font-family: 'Red-Velvetica';
+  font-family: redvelvet;
   font-weight: 100;
   margin: 0.67em 0;
   padding-top: 0.5em;
