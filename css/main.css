@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,200;1,500&display=swap');
 
 body {
-  font-family: Century, Helvetica, sans-serif;
+  font-family: 'Epilogue', sans-serif;
+  margin: 0;
+  /* background: linear-gradient(280deg, rgb(133, 226, 203, .3), rgb(172, 187, 183, .9)); */
+  background: #282c34;
+}
+
+main {
+  display: block;
+  border: 1px solid rgba(209, 208, 208, 0.5);
+  border-radius: 20px;
+  background: linear-gradient(280deg, rgb(133, 226, 203, .3), rgb(172, 187, 183, .9));
+  z-index: -1;
+  box-shadow: 0px 3px rgba(75, 67, 67, 0.2);
+  overflow-y: scroll;
+  height: 800px; 
 }
 
 pre {
