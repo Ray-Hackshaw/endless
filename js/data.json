@@ -1,0 +1,53 @@
+{
+    "projects": [
+      {
+        "project": "Kogan Coding Recruitment Challenge",
+        "link": "https://kogan.rayhackshaw.com/",
+        "description": "Invited to participate in a recruitment challenge for the Australian company 'Kogan' for the role of a junior developer. The challenge consisted of a single API endpoint that would have to be used in order to retrieve and handle a mock AWS JSON object, which would then be filtered based on a certain property. The challenge wanted a calculation of the average cubic weight of all air conditing units present in the endpoint. Although I did not progress further, the project was enjoyable and taught me more about handling API endpoint objects. It is worth noting that the site is currently broken, due to security performance issues, given that the enpoint provided was with HTTP rather than HTTPS. I may come back to this in the future to try and edit my approach in order to make it functional again, however it is not a priority of mine at this current stage.",
+        "imageone": "",
+        "imagetwo": ""
+      },
+      {
+        "project": "sds",
+        "link": "",
+        "description": "",
+        "image-one": "",
+        "image-two": ""
+      },
+      {
+        "project": "sds",
+        "link": "",
+        "description": "",
+        "image-one": "",
+        "image-two": ""
+      },
+      {
+        "project": "sds",
+        "link": "",
+        "description": "",
+        "image-one": "",
+        "image-two": ""
+      },
+      {
+        "project": "sds",
+        "link": "",
+        "description": "",
+        "image-one": "",
+        "image-two": ""
+      },
+      {
+        "project": "sds",
+        "link": "",
+        "description": "",
+        "image-one": "",
+        "image-two": ""
+      },
+      {
+        "project": "sdss",
+        "link": "",
+        "description": "",
+        "image-one": "",
+        "image-two": ""
+      }
+    ]
+}
