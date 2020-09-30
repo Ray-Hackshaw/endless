@@ -4,50 +4,57 @@
         "project": "Kogan Coding Recruitment Challenge",
         "link": "https://kogan.rayhackshaw.com/",
         "description": "Invited to participate in a recruitment challenge for the Australian company 'Kogan' for the role of a junior developer. The challenge consisted of a single API endpoint that would have to be used in order to retrieve and handle a mock AWS JSON object, which would then be filtered based on a certain property. The challenge wanted a calculation of the average cubic weight of all air conditing units present in the endpoint. Although I did not progress further, the project was enjoyable and taught me more about handling API endpoint objects. It is worth noting that the site is currently broken, due to security performance issues, given that the enpoint provided was with HTTP rather than HTTPS. I may come back to this in the future to try and edit my approach in order to make it functional again, however it is not a priority of mine at this current stage.",
+        "imageone": "assets/kogan.png",
+        "imagetwo": "assets/kogan2.png"
+      },
+      {
+        "project": "'goodbye' - font updater project",
+        "link": "https://goodbye.rayhackshaw.com/",
+        "description": "Personal project focused on experimenting with JavaScript driven CSS changes, specifically changing text elements, including font families and replacing the words automatically. The words are fed from an array of variations of 'goodbye' in a variety of different languages. The implementation is still very basic/naive. I am looking to develop this idea further in efforts to push for more of an automated approach. In future, I want to develop a similar idea which is much more polished and thorough. The elements should be able to be added to/removed from easily without a need for manual array changes. On top of this, the current design struggles with media design queries, which is an area I would love to work on and learn more about, as well as building upon more general CSS knowledge.",
+        "imageone": "assets/goodbye.png",
+        "imagetwo": "assets/goodbye2.gif"
+      },
+      {
+        "project": "'nights' - onlick and button hover experiments",
+        "link": "https://nights.rayhackshaw.com/",
+        "description": "Testing basic button onclick and hover functionality with replacing HTML/CSS elements. I wanted something that implemented buttons with both onclick and hover changes. The button retrieves it's contents from a pre-defined array which, upon reaching it's end, changes to a 'final' text element which marks that you have reached the end of the array. After clicking this final button once more, the page resets and the array parsing begins again. The design could be much more efficient, and I wish to develop another version of this same idea however without taking such a naive approach. Another stipulation I have with this project is the lack of responsive mobile design/functionality. Coming back to this in the future to hopefully change and redesign this for both desktop and mobile compatability.",
+        "imageone": "assets/nights.png",
+        "imagetwo": "assets/nights2.gif"
+      },
+      {
+        "project": "readingsupply",
+        "link": "https://reading.supply/@rhackshaw",
+        "description": "I maintain and update a readingsupply account, which I use to write about or discuss any ideas I find interesting. These blog style pieces are not exclusively related to the computer science field. I try and maintain a stable balance between writing creatively/reflectively as well as programming and logical problem solving. In this field it is particularly easy to become tunnel-visioned on one side of this equation, however I believe that a large part of what makes computer science so interesting is the aspects of humanity.",
         "imageone": "",
         "imagetwo": ""
       },
       {
-        "project": "sds",
+        "project": "Handling string conversion and variable storage within assembly language (University)",
         "link": "",
-        "description": "",
-        "image-one": "",
-        "image-two": ""
+        "description": "We were asked as a part of university assessment task to design assembly language routines to convert a digit string into an integer and it's subsequent 16-bit float value. We were tasked with designing several input handling methods, such as recognising valid input or finding the first significant bit of the value. This was done entirely through the LC-3 Simulator, which allowed us to recreate and design assembly language routines whilst demonstrating basic IO and variable handling funcionality of a standard IDE. In all honesty I hated a lot about this project. All university stress aside, I believed (and somewhat still do) that learning about assembly language - while in some ways valuable to fundamental computer science principles - did not warrant a project of this magnitude in a second year unversity course. The project itself was also incredibly difficult, as most students had only experienced Python related development up until this point, myself included. While completing the tasks were rewarding, I hope to never have to work in assembly if I can avoid it.",
+        "imageone": "",
+        "imagetwo": ""
       },
       {
-        "project": "sds",
+        "project": "Binary, integer, 16-bit floating point formatting using Python (University)",
         "link": "",
-        "description": "",
-        "image-one": "",
-        "image-two": ""
+        "description": "Using the standard Python 3.0 library, students would have to develop programs to handle various string/integer digit inputs that, granted they were valid, would subsequently be converted into a respective binary/float output which would be checked against a STDOUT. The proccesses themselves were simple, involving a lot of basic Python input handling routines, including nested ifs, string slicing and indexxing. The project gave me a lot of confidence in my understanding of Python, particularly building upon strengths and techniques that I had developed during my first year of university. While the code is far from elegant, it was significant as a stepping stone for my further development and understanding of other programming languages, as well as progressing my Python proficiency.",
+        "imageone": "",
+        "imagetwo": ""
       },
       {
-        "project": "sds",
+        "project": "Human Centred Design - Prototyping and Usability Evaluation (University)",
         "link": "",
-        "description": "",
-        "image-one": "",
-        "image-two": ""
+        "description": "A university team-project exercise following Agile/Scrum methodology, designing and developing UI that was centered around HCI and usability heuristics. Our team was required to develop a service that would streamline groupwork within university students. The whole development journey had to be carefully logged and processed according to fundamental Agile checkpoints - our brainstorming for example, took place with the use of Affinity Mapping, Stakeholder Mapping, and developing Personas. The UI design was first done through physical Low Fidelity Prototyping, then followed through with front-end High Fidelity Prototyping. Each key feature and design decision had to be explained through the lens of HCI and within the scope of standard usability heuristics. The project was less about the concept of developing a new or original idea, but rather aimed more at how students would react under such a realistic Agile mindset and timeframe. While the group dynamic wasn't perfect, the skills I learned about human centered design and development and CI/CD have been very valuable to me. It formed a firm foundation for understanding the ins and outs of Agile development, and explained some of the motivations for the process as a whole",
+        "imageone": "",
+        "imagetwo": ""
       },
       {
-        "project": "sds",
+        "project": "Creating a parallelised merge sort algorithm within C (University)",
         "link": "",
-        "description": "",
-        "image-one": "",
-        "image-two": ""
-      },
-      {
-        "project": "sds",
-        "link": "",
-        "description": "",
-        "image-one": "",
-        "image-two": ""
-      },
-      {
-        "project": "sdss",
-        "link": "",
-        "description": "",
-        "image-one": "",
-        "image-two": ""
+        "description": "University project where the popular merge sort algorithm had to be implemented within C given a skeleton codebase provided by Prof. Robert Sheehan. The assessment focused on memory behaviour on Unix systems, specifically how memory/performance was affected during the algorithm's runtime based on slight changes in the program. Memory stack size changes, the implementation of multiple threads, and mutex/spin locks allowed us to better understand concurrency within C, and thus develop a parallelised merge sort program.",
+        "imageone": "",
+        "imagetwo": ""
       }
     ]
 }
