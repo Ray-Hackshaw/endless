@@ -13,16 +13,31 @@
 }
 
 .project {
+  margin: 0;
   padding: 20px 0px;
   height: auto;
   border-top: 2px solid black;
 }
 
+.project:hover {
+  height: auto;
+  background: black;
+  color: white;
+  animation-name: projecthov;
+  animation-duration: 0.6s; 
+}
+
+@keyframes projecthov {
+  from {background: white; color: black;}
+  to {background: black; color: white;}
+}
+
 body {
-  height: 100%;
+  height: auto;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: 100% 100%;
   background: linear-gradient(0deg,  rgb(255, 255, 255), rgb(78, 78, 78, 0.8));
   /* background: linear-gradient(0deg, rgb(133, 226, 203, 0.3), rgb(40, 44, 52, 0.3)); */
   overflow-y: hidden;
