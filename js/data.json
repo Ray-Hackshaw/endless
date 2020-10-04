@@ -1,6 +1,13 @@
 {
     "projects": [
       {
+        "project": "Vet Radar Frontend Recruitment Challenge",
+        "link": "",
+        "description": "For part of Vet Radar’s recruitment intake process for a web developer, I was tasked with building a React based web-app that mimicked basic online shopping cart functionality. The exercise was started and finished within the time frame of 2 hours, with regular commits made in 20 minute intervals, progress had to be recorded through a public Github repository, which would then be submitted to be examined and marked by Vet Radar. Despite not progressing, the project taught me a lot about React beyond the minimal amount of exposure I had previously had with it during my time at university. The design itself was rushed and the logic was mainly taken from a youtube resource, so I would still love to experiment with React webapp development for personal projects to learn more about the framework.",
+        "imageone": "assets/vetrad.png",
+        "imagetwo": "assets/vetrad2.png"
+      },
+      {
         "project": "Kogan Coding Recruitment Challenge",
         "link": "https://kogan.rayhackshaw.com/",
         "description": "Invited to participate in a recruitment challenge for the Australian company 'Kogan' for the role of a junior developer. The challenge consisted of a single API endpoint that would have to be used in order to retrieve and handle a mock AWS JSON object, which would then be filtered based on a certain property. The challenge wanted a calculation of the average cubic weight of all air conditing units present in the endpoint. Although I did not progress further, the project was enjoyable and taught me more about handling API endpoint objects. It is worth noting that the site is currently broken, due to security performance issues, given that the enpoint provided was with HTTP rather than HTTPS. I may come back to this in the future to try and edit my approach in order to make it functional again, however it is not a priority of mine at this current stage.",
