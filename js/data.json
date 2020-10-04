@@ -2,7 +2,7 @@
     "projects": [
       {
         "project": "Vet Radar Frontend Recruitment Challenge",
-        "link": "",
+        "link": "https://github.com/Ray-Hackshaw/vetradar-react-frontend",
         "description": "For part of Vet Radar’s recruitment intake process for a web developer, I was tasked with building a React based web-app that mimicked basic online shopping cart functionality. The exercise was started and finished within the time frame of 2 hours, with regular commits made in 20 minute intervals, progress had to be recorded through a public Github repository, which would then be submitted to be examined and marked by Vet Radar. Despite not progressing, the project taught me a lot about React beyond the minimal amount of exposure I had previously had with it during my time at university. The design itself was rushed and the logic was mainly taken from a youtube resource, so I would still love to experiment with React webapp development for personal projects to learn more about the framework.",
         "imageone": "assets/vetrad.png",
         "imagetwo": "assets/vetrad2.png"
