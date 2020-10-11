@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- new.html is my testing file which will eventually carry over changes to the real site -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,23 +20,12 @@
     </button>
 </body>
 
-
-
-
-
 <script>
-    // document.getElementById("navigate").onclick = function () {
-    //     document.getElementById("endless_title").innerHTML = "";
-    //     location.href = "https://endless.rayhackshaw.com";
-    // };
-
     $('#endless_block').click(function()
     {
         $('#endless_title').css({
-            'transition': " all 5s ease-in-out",
+            'transition': " all 2s ease-in-out",
             'text-shadow': 'none',
-            'transform': 'translate(0%, -15%)',
-            'opacity': '0',
             'color': 'rgba(255, 255, 255, .4);'
         }),
 
@@ -44,10 +34,26 @@
         })
 
         $('#endless_title').html('')
-        .delay(600).queue(
-            $('#holder').html('Endless is a catalogue of work and backlog of previous projects, as well as a hub for resources I find useful and/or interesting. I wanted a platform to better explain my ideas and reasoning for personal projects, more than just what lives on Github. I wanted to have everything as a stream of ideas that were all in one place. It is updated periodically with any new projects as well as changes to old work I may have revisited. Currently this exists through a subdomain of my website, however I am looking to migrate this elsewhere soon.')
-        )
+        $('#holder').html('Endless is a catalogue of work and backlog of previous projects, as well as a hub for resources I find useful and/or interesting. I wanted a platform to better explain my ideas and reasoning for personal projects, more than just what lives on Github. I wanted to have everything as a stream of ideas that were all in one place. It is updated periodically with any new projects as well as changes to old work I may have revisited.')
     });
+
+    $('#holder').click(function(){
+        $('#holder').css({
+            'transition': " all 2s ease-in-out",
+            'text-shadow': 'none',
+            'transform': 'translate(0%, -15%)',
+            // 'color': 'rgba(255, 255, 255, .8);'
+            'color': 'green;'
+        })
+
+        $('#endless_title').css({
+            'color': 'rgba(255, 255, 255, .4);'
+        }),
+
+        $('#endless_title').html('sdsd')
+    });
+
+
 </script>
 
 
