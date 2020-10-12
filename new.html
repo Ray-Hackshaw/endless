@@ -12,47 +12,28 @@
 <body>
     <button id="navigate">
         <div class="parentblock">
-            <div id="endless_block" class="firstblock">
+            <div id="1_block" class="firstblock">
                 <h1 id="endless_title" class="tracking-widest">ENDLESS</h1>
-                <h1 id="holder"></h1>
+                <p id="holder"></p>
             </div>
         </div>
     </button>
 </body>
 
 <script>
-    $('#endless_block').click(function()
-    {
-        $('#endless_title').css({
-            'transition': " all 2s ease-in-out",
-            'text-shadow': 'none',
-            'color': 'rgba(255, 255, 255, .4);'
-        }),
-
+    $('#1_block').click(function()
+    
+    {   
         $('#holder').css({
-            'opacity': '1',
-        })
-
-        $('#endless_title').html('')
-        $('#holder').html('Endless is a catalogue of work and backlog of previous projects, as well as a hub for resources I find useful and/or interesting. I wanted a platform to better explain my ideas and reasoning for personal projects, more than just what lives on Github. I wanted to have everything as a stream of ideas that were all in one place. It is updated periodically with any new projects as well as changes to old work I may have revisited.')
-    });
-
-    $('#holder').click(function(){
-        $('#holder').css({
-            'transition': " all 2s ease-in-out",
-            'text-shadow': 'none',
-            'transform': 'translate(0%, -15%)',
             // 'color': 'rgba(255, 255, 255, .8);'
+            'opacity': '1',
             'color': 'green;'
         })
 
-        $('#endless_title').css({
-            'color': 'rgba(255, 255, 255, .4);'
-        }),
-
-        $('#endless_title').html('sdsd')
+        $('#endless_title').slideDown(500).delay(500).slideUp(700)
+        $("#endless_title").attr("id", "hidden_title")
+        $('#holder').html('Endless is a catalogue of work and backlog of previous projects, as well as a hub for resources I find useful and/or interesting. I wanted a platform to better explain my ideas and reasoning for personal projects, more than just what lives on Github. I wanted to have everything as a stream of ideas that were all in one place. It is updated periodically with any new projects as well as changes to old work I may have revisited.')
     });
-
 
 </script>
 
