@@ -5,37 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="js/jquery.min.js"> </script>
+    <script type="text/javascript" src="js/new.js"> </script>
     <link rel="stylesheet" href="css/styles2.css" />
     <title>&#10063 Endless</title>
 </head>
 
 <body>
-    <button id="navigate">
-        <div class="parentblock">
-            <div id="1_block" class="firstblock">
-                <h1 id="endless_title" class="tracking-widest">ENDLESS</h1>
-                <p id="holder"></p>
-            </div>
+    <div class="parentblock">
+        <div id="1_block" class="firstblock">
+            <h1 id="endless_title" class="tracking-widest">ENDLESS</h1>
+            <p id="holder"></p>
         </div>
-    </button>
+        <a id="hidden_btn"></a>
+    </div>
+        
 </body>
 
-<script>
-    $('#1_block').click(function()
-    
-    {   
-        $('#holder').css({
-            // 'color': 'rgba(255, 255, 255, .8);'
-            'opacity': '1',
-            'color': 'green;'
-        })
-
-        $('#endless_title').slideDown(500).delay(500).slideUp(700)
-        $("#endless_title").attr("id", "hidden_title")
-        $('#holder').html('Endless is a catalogue of work and backlog of previous projects, as well as a hub for resources I find useful and/or interesting. I wanted a platform to better explain my ideas and reasoning for personal projects, more than just what lives on Github. I wanted to have everything as a stream of ideas that were all in one place. It is updated periodically with any new projects as well as changes to old work I may have revisited.')
-    });
-
-</script>
 
 
 
