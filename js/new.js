@@ -42,35 +42,3 @@ $(document).ready(function(){
         
     });
 
-
-    //     $(this).css("transition", "all 5s ease-in"),
-    //     $(this).css("width", "70%"); // on hover
-    // }).delay(100).slideUp(100);
-
-
-// function toEndless() {
-//     $('.parentblock').css({
-//         'transition': 'all 2s ease',
-//         'width': '2000px',
-//         'height': '2000px;'
-//     });
-//     console.log("take me away from here")
-    
-// }
-
-
-// <body>
-//     <main class="container py-4 px-4 mx-auto my-12">
-//     </main>
-
-// <script>
-//     $(function() {
-//         console.log("function exec")
-//         $.getJSON('./js/data.json', function(data) {
-//             $.each(data.projects, function(_, e) {
-//                 $('main').append('<div class="project flex flex-wrap -mx-4"><div class="mb-4 md:mb-0 px-4 w-full md:w-1/3"><h2 class="text-2xl mb-2">' + e.project + '</h2><a href="' + e.link + '"target="_blank">' + e.link + '</a></div><div class="mb-4 md:mb-0 px-4 w-full md:w-1/3">' + e.description + '</div><div class="mb-4 md:mb-0 px-4 w-full md:w-1/3"><img src="' + e.imageone + '" alt="Code snippet"><br><img src="' + e.imagetwo + '" alt=""</div></div>');
-//             });
-//         });
-//     });
-// </script>
-// </body>
