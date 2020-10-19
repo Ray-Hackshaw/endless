@@ -3,7 +3,7 @@
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
-
+/* TODO: ADD MEDIA DESIGN QUERIES */
 @media only screen and (max-width: 1140px), only screen and (max-device-width: 1140px) {
   .firstblock {
     font-size: 6vw !important;
@@ -33,7 +33,6 @@ body {
 #holder {
   font-size: 1vw;
   opacity: 0;
-  /* transition: opacity 2s ease-in-out; */
 }
 
 .parentblock {
@@ -70,8 +69,6 @@ body {
   box-shadow: inset 0 0 20px rgba(57, 59, 59, 0.8); 
 }
 
-
-
 .firstblock:hover{
   font-size: 3.05vw;
   box-shadow: inset 0 0 20px rgba(255, 243, 243, 0.8);
@@ -89,29 +86,6 @@ body {
   border-top: 2px solid black;
 }
 
-/* .project:hover {
-  height: auto;
-  background: black;
-  color: white;
-  animation-name: projecthov;
-  animation-duration: 1s; 
-} */
-
-@keyframes projecthov {
-  from {background: white; color: black;}
-  to {background: black; color: white;}
-}
-
-.blink_me {
-  animation: blinker 2s linear infinite;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
-
 .hidden_btn{
   display: inline-block;
   outline: none;
@@ -120,14 +94,14 @@ body {
   padding-right: 8%;
 }
 
-main {
+/* main {
   display: block;
   border: 3px solid rgb(0, 0, 0, 0.8);
   background: white;
   box-shadow: 0px 3px rgba(75, 67, 67, 0.2);
   height: 800px;
   overflow-y: scroll;
-}
+} */
 
 h1 {
   font-family: 'Jost', sans-serif;
