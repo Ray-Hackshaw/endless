@@ -10,7 +10,6 @@ $(document).ready(function(){
     })
 });
 
-
     $("#holder").live("click", function(){
         $(".parentblock").css({
             "cursor": "default"
@@ -22,15 +21,13 @@ $(document).ready(function(){
             $("#1_block").remove();
             $('#endless_title').remove();
             $('#holder').remove();
-        }, 100);
+        }, 8000);
         $("#parent").animate({
             "height": "80%"
         }, 2000);
         $("#parent").animate({
             "width": "80%"
         }, 2000);
-
-        
         $("#parent").addClass("scrollable")
         setTimeout(function() {
             $.getJSON('./js/data.json', function(data) {
