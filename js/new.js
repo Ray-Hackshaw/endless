@@ -14,6 +14,9 @@ $(document).ready(function(){
         $(".parentblock").css({
             "cursor": "default"
         });
+        $("#home").animate({
+            "opacity": "1"
+        }, 2000)
         $("#1_block").animate({
             "opacity": "0"
         }, 2);
@@ -21,21 +24,22 @@ $(document).ready(function(){
             $("#1_block").remove();
             $('#endless_title').remove();
             $('#holder').remove();
-        }, 8000);
+        }, 200);
         $("#parent").animate({
-            "height": "80%"
+            "height": "50%",
+            "width": "85%"
         }, 2000);
         $("#parent").animate({
-            "width": "80%"
+            "height": "80%"
         }, 2000);
         $("#parent").addClass("scrollable")
         setTimeout(function() {
             $.getJSON('./js/data.json', function(data) {
                 $.each(data.projects, function(_, e) {
-                    $('#parent').append('<div class="project flex flex-wrap -mx-4"><div class="mb-4 md:mb-0 px-4 w-full md:w-1/3"><h2 class="text-2xl mb-2">' + e.project + '</h2><a href="' + e.link + '"target="_blank">' + e.link + '</a></div><div class="mb-4 md:mb-0 px-4 w-full md:w-1/3">' + e.description + '</div><div class="mb-4 md:mb-0 px-4 w-full md:w-1/3"><img src="' + e.imageone + '" alt="Code snippet"><br><img src="' + e.imagetwo + '" alt=""</div></div>');
+                    $('#parent').append('<div class="project flex flex-wrap -mx-4"><div class="mb-4 md:mb-0 px-4 w-full md:w-1/3"><h2 id="projectname" class="mb-2">' + e.project + '</h2><a href="' + e.link + '"target="_blank">' + e.link + '</a></div><div class="mb-4 md:mb-0 px-4 w-full md:w-1/3">' + e.description + '</div><div class="mb-4 md:mb-0 px-4 w-full md:w-1/3"><img src="' + e.imageone + '" alt="Code snippet"><br><img src="' + e.imagetwo + '" alt=""</div></div>');
                 });
         }, 40000);
         });
         
-    });
+});
 
