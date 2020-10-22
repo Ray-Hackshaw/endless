@@ -1,11 +1,24 @@
 function toggleDarkMode() {
-    alert("Working on it - come back soon :) ")
-    // setTimeout(function(){
-    //     $(".parentblock").css({
-    //         "background": "black",
-    //         "color": "white"
-    //     }, 20000);
-    // })
+        var iteration = $(this).data('iteration')||1
+        switch (iteration) {
+            case 1:
+                $("body").css({
+                    "transition": "background 2s ease",
+                    "background": "rgb(0, 0, 0, 0.95)",
+                    "color": "white"
+                })
+                break;
+            case 2:
+                $("body").css({
+                    "transition": "background 2s ease",
+                    "background": "rgb(255, 255, 255, 0.95)",
+                    "color": "black"
+                })
+                break;
+        }
+        iteration++;
+        if (iteration > 2) iteration = 1
+        $(this).data('iteration', iteration)
 }
 
 $(document).ready(function(){
