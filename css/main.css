@@ -4,17 +4,6 @@
 
 
 /* TODO: ADD MEDIA DESIGN QUERIES */
-@media only screen and (max-width: 1140px), only screen and (max-device-width: 1140px) {
-    .firstblock {
-      font-size: 6vw !important;
-      width: 500px;
-    }
-  
-    #holder {
-      line-height: 1;
-      font-size: 2rem !important;
-    }
-  }
   
   html {
     background-repeat: no-repeat;
@@ -173,9 +162,82 @@
   }
 
 
+  @media only screen and (max-width: 1140px) {
+    .firstblock {
+      font-size: 6vw;
+    }
 
+    #holder {
+      line-height: 1;
+      font-size: 1rem;
+    }
+  }
 
+  @media only screen and (max-width: 1024px) {
+    .firstblock {
+      font-size: 3vw;
+    }
 
+    #holder {
+      line-height: 1;
+      font-size: 1rem;
+    }
+
+    #parent {
+      font-size: 4vw;
+      width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 812px) {
+    .firstblock {
+      font-size: 3vw;
+    }
+
+    #holder {
+      line-height: 1;
+      font-size: 1rem;
+    }
+
+    #parent {
+      font-size: 4vw;
+      width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 736px) {
+      #parent {
+      font-size: 4vw;
+      width: 70%;
+    }
+    
+    .firstblock {
+      font-size: 3vw;
+    }
+
+    #holder {
+      line-height: 1;
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 667px) {
+    #parent {
+      font-size: 4vw;
+      width: 85%;
+      overflow-x: hidden;
+    }
+      
+    .firstblock {
+      font-size: 7vw;
+    }
+
+    #holder {
+      line-height: 1;
+      font-size: 5vw;
+      padding-right: 0.5vw;
+    }
+  }
 
 
 
