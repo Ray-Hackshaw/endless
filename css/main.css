@@ -161,73 +161,108 @@
     transform: scale(-1, 1);
   }
 
-
-  @media only screen and (max-width: 1140px) {
-    .firstblock {
-      font-size: 6vw;
-    }
-
-    #holder {
-      line-height: 1;
-      font-size: 1rem;
-    }
+  .ipad {
+    width: auto;
   }
 
-  @media only screen and (max-width: 1024px) {
+/* iPad Query */
+  @media only screen and (max-width: 768px) {
     .firstblock {
-      font-size: 3vw;
+      font-size: 10vw;
     }
 
     #holder {
       line-height: 1;
-      font-size: 1rem;
+      font-size: 5vw;
     }
+    
+    a {
+      font-size: 1.5vw;
+    }
+
+    img {
+      visibility: hidden;
+    }
+
+    /* .ipad { LOOKING FOR A WAY TO IMPROVE IPAD WIDTH DISPLAY
+      width: 66.66666%;
+    } */
+
+    /* .ipad:after {
+      content: "- iPad's currently struggle to show images. Visit on desktop for the best user experience!"
+    } */
 
     #parent {
       font-size: 4vw;
-      width: 70%;
     }
   }
-
-  @media only screen and (max-width: 812px) {
-    .firstblock {
-      font-size: 3vw;
-    }
-
-    #holder {
-      line-height: 1;
-      font-size: 1rem;
-    }
-
-    #parent {
-      font-size: 4vw;
-      width: 70%;
-    }
-  }
-
-  @media only screen and (max-width: 736px) {
+/* iPhone 6/7/8 PLUS */
+  @media only screen and (max-width: 414px) {
       #parent {
       font-size: 4vw;
-      width: 70%;
+      width: 80%;
+      overflow-x: hidden;
     }
     
     .firstblock {
-      font-size: 3vw;
+      font-size: 7vw;
+    }
+
+    a {
+      font-size: 4vw;
+    }
+
+    img {
+      visibility: visible;
     }
 
     #holder {
       line-height: 1;
-      font-size: 1rem;
+      font-size: 5.2vw;
     }
   }
-
-  @media only screen and (max-width: 667px) {
+/* iPhone 6/7/8 + X/XS */
+  @media only screen and (max-width: 375px) {
     #parent {
       font-size: 4vw;
       width: 85%;
       overflow-x: hidden;
     }
       
+    .firstblock {
+      font-size: 7vw;
+    }
+
+    a {
+      font-size: 4vw;
+    }
+
+    img {
+      visibility: visible;
+    }
+
+    #holder {
+      line-height: 1;
+      font-size: 5vw;
+      padding-right: 0.5vw;
+    }
+  }
+/* Galaxy S9/S9+ Android */
+  @media only screen and (max-width: 360px) {
+    #parent {
+      font-size: 4vw;
+      width: 85%;
+      overflow-x: hidden;
+    }
+
+    a {
+      font-size: 4vw;
+    }
+      
+    img {
+      visibility: visible;
+    }
+
     .firstblock {
       font-size: 7vw;
     }
