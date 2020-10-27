@@ -1,6 +1,13 @@
 {
     "projects": [
       {
+        "project": "'isohel' - sunlight geoactivity web-app",
+        "link": "https://isohel.rayhackshaw.com",
+        "description": "I want to build a React based web application which, using Mapbox and OpenWeatherMap API, is able to plot points between major cities across the world which share the same duration of sunshine. The site will be updated daily at 24:00NZT, with the previous days isohels plotted on a map of the world which the user can interact with and observe. Isohel calculation will be dependent on sunlight times relative to sunset and sunrise; i.e the difference in sunset and sunrise to calculate total sun duration for the given day. Each API call to OpenWeatherMap will return points that will be converted to plottable coordinates that MapBox is able to recognise and configure suitably to fit their own system. This project is currently a work in progress.",
+        "imageone": "",
+        "imagetwo": ""
+      },
+      {
         "project": "Vet Radar Frontend Recruitment Challenge",
         "link": "https://vetradar.rayhackshaw.com",
         "description": "For part of Vet Radar’s recruitment intake process for a web developer, I was tasked with building a React based web-app that mimicked basic online shopping cart functionality. The exercise was started and finished within the time frame of 2 hours, with regular commits made in 20 minute intervals, progress had to be recorded through a public Github repository, which would then be submitted to be examined and marked by Vet Radar. Despite not progressing, the project taught me a lot about React beyond the minimal amount of exposure I had previously had with it during my time at university. The design itself was rushed and the logic was mainly taken from a youtube resource, so I would still love to experiment with React webapp development for personal projects to learn more about the framework.",
