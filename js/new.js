@@ -7,10 +7,18 @@ function toggleDarkMode() {
                     "background": "rgb(0, 0, 0, 0.95)",
                     "color": "white"
                 })
+                $(".darkblock").css({
+                    "background": "rgba(255, 255, 255, 0.2)"
+                })
+                $(".homeblock").css({
+                    "background": "rgba(255, 255, 255, 0.2)"
+                })
+                $(".parentblock").css({
+                    "background": "rgba(255, 255, 255, 0.2)"
+                })
                 break;
             case 2: //lightmode
                 $("body").css({
-                    "transition": "background 2s ease",
                     "background": "#f2f2f2",
                     "color": "black"
                 })
