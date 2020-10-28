@@ -1,17 +1,17 @@
 function toggleDarkMode() {
         var iteration = $(this).data('iteration')||1
         switch (iteration) {
-            case 1:
+            case 1: //darkmode
                 $("body").css({
                     "transition": "background 2s ease",
                     "background": "rgb(0, 0, 0, 0.95)",
                     "color": "white"
                 })
                 break;
-            case 2:
+            case 2: //lightmode
                 $("body").css({
                     "transition": "background 2s ease",
-                    "background": "rgb(255, 255, 255, 0.95)",
+                    "background": "#f2f2f2",
                     "color": "black"
                 })
                 break;
