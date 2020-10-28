@@ -108,6 +108,12 @@
     text-shadow: 0 0 2rem black;
   } 
 
+  .repository {
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+  }
+  
   #parent {
     font-size: 1.5vw;
     font-family: 'Open Sans', sans-serif;
