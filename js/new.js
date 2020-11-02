@@ -55,9 +55,9 @@ $(document).ready(function(){
         $("#home").animate({
             "opacity": "1"
         }, 2000)
-        $("#darkmode").animate({
-            "opacity": "1"
-        }, 2000)
+        // $("#darkmode").animate({
+        //     "opacity": "1"
+        // }, 2000)
         $("#1_block").animate({
             "opacity": "0"
         }, 2);
