@@ -19,6 +19,8 @@
     padding: 0;
   }
 
+/* Darkmode elements */
+
   .darkblock {
     background-color: rgba(255, 255, 255, 0.616);
     float: left;
