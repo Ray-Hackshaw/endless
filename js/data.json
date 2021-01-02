@@ -1,6 +1,13 @@
 {
     "projects": [
       {
+        "project": "Celo Health Recruitment Challenge",
+        "link": "assets/celo.pdf",
+        "description": "Celo Health are a community invested in streamlining secure communication between individuals within the healthcare sphere. Their recruitment process consisted of performing QA testing on their own application, and subsequently writing a report documenting the test plan and test cases. My report - albeit only a skeleton model for the recruitment challenge - was received well with warm praise. The exercise was my first hands-on introduction to Selenium and was an invaluble experience for learning more about the QA process and automated testing technologies.",
+        "repository": "https://github.com/Ray-Hackshaw/isohel",
+        "preview": "assets/celo.png"
+      },
+      {
         "project": "'isohel' - sunlight geoactivity web-app",
         "link": "https://isohel.rayhackshaw.com",
         "description": "I want to build a React based web application which, using Mapbox and OpenWeatherMap API, is able to plot points between major cities across the world which share the same duration of sunshine. The site will be updated daily at 24:00NZT, with the previous days isohels plotted on a map of the world which the user can interact with and observe. Isohel calculation will be dependent on sunlight times relative to sunset and sunrise; i.e the difference in sunset and sunrise to calculate total sun duration for the given day. Each API call to OpenWeatherMap will return points that will be converted to plottable coordinates that MapBox is able to recognise and configure suitably to fit their own system. This project is currently a work in progress.",

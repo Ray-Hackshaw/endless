@@ -88,7 +88,6 @@
     background: rgba(173, 210, 212, 0.212);
     color: white;
     transition: all 0.8s ease;
-    /* text-shadow: 0 0 0.2rem black; */
     z-index: -1;
   }
   
@@ -194,12 +193,18 @@
     }
     
     a {
+      text-align: center;
       font-size: 1.5vw;
     }
 
     img {
       visibility: hidden;
     }
+
+
+
+
+
 
     /* .ipad { LOOKING FOR A WAY TO IMPROVE IPAD WIDTH DISPLAY
       width: 66.66666%;
