@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
@@ -10,7 +11,7 @@
     min-height: 100%;
     width: 100%;
     height: auto;
-    background: #f2f2f2;
+    background: #191919;
   }
   
   body {
@@ -33,14 +34,14 @@
   }
 
   .homeblock {
-    background-color: rgba(255, 255, 255, 0.616);
+    background-color: rgba(25, 25, 25, 0.616);
     display: flex;
     padding: 0.5rem 1rem;
     border: 0.1rem solid white;
     border-radius: 0.2rem;
     box-shadow: inset 0 0 20px rgba(218, 243, 243, 0.8);
     cursor: pointer;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Baloo Bhai 2', sans-serif;
     letter-spacing: 0.2rem;
     opacity: 0;
   }
@@ -56,7 +57,7 @@
     font-size: 2vw;
     border: 2px solid white;
     border-radius: 1vw;
-    background-color:  rgba(255, 255, 255, 0.616);
+    background-color:  rgba(25, 25, 25, 0.616);
     box-shadow: inset 0 0 20px rgba(218, 243, 243, 0.8);
   }
   
@@ -74,7 +75,7 @@
   
   .firstblock {
     padding: 1vw 3vw;
-    background:  rgba(255, 255, 255, .4);
+    background:  rgba(25, 25, 25, .4);
     border: 2px solid white;
     border-radius: 1vw;
     text-align: center;
@@ -109,11 +110,12 @@
     margin: 0;
     padding: 20px 0px;
     height: auto;
-    border-top: 2px solid black;
+    color: white;
+    border-top: 2px solid white;
   }
    
   h1 {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Baloo Bhai 2', sans-serif;
     font-weight: 100;
     margin: 0.67em 0;
   }
@@ -126,19 +128,19 @@
   
   #parent {
     font-size: 1.5vw;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Baloo Bhai 2', sans-serif;
   }
 
   #holder {
     font-size: 1.5vw;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Baloo Bhai 2', sans-serif;
     opacity: 0;
     font-weight: 700;
     -webkit-text-stroke: 0.2px black;
   }
 
   #projectname {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Baloo Bhai 2', sans-serif;
     font-size: 1.5rem;
   }
 
