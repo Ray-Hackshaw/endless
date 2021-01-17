@@ -45,7 +45,7 @@
       {
         "project": "readingsupply",
         "link": "https://reading.supply/@rhackshaw",
-        "description": "I maintain and update a readingsupply account, which I use to write about or discuss any ideas I find interesting. These blog style pieces are not exclusively related to the computer science field. I try and maintain a stable balance between writing creatively/reflectively as well as programming and logical problem solving. In this field it is particularly easy to become tunnel-visioned on one side of this equation, however I believe that a large part of what makes computer science so interesting is the aspects of humanity.",
+        "description": "I maintain and update a readingsupply account, which I use to write about or discuss any ideas I find interesting. These blog style pieces are not exclusively related to computer science. I try and maintain a stable balance between writing creatively as well as programming and logical problem solving. In this field it is particularly easy to become tunnel-visioned on one side of this equation, however I believe that a large part of what makes computer science so interesting is the relationship between humanity and computing and how the two shape one another.",
         "repository": "",
         "preview": "assets/readingsupply.png"
       },
