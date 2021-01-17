@@ -47,6 +47,10 @@
     opacity: 0;
   }
 
+  .homeblock:hover {
+    text-shadow: 0 0 5px #ffffff;
+  }
+
   .parentblock {
     animation: ripple 3s linear infinite;
     padding: 2vw 2vw;
