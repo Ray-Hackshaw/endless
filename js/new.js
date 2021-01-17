@@ -1,4 +1,4 @@
-function toggleDarkMode() {
+function toggleDarkMode() { // Currently removed from live version.
         var iteration = $(this).data('iteration')||1
         switch (iteration) {
             case 1: //darkmode
