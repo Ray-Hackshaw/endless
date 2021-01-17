@@ -48,6 +48,7 @@
   }
 
   .parentblock {
+    animation: ripple 3s linear infinite;
     padding: 2vw 2vw;
     height: auto;
     width: auto;
@@ -164,6 +165,21 @@
     position: fixed;
     bottom: 0;
     right: 0;
+  }
+
+  @keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0rem rgba(173, 210, 212, 0.3),
+                  0 0 0 0.5rem rgba(173, 210, 212, 0.3),
+                  0 0 0 1rem rgba(173, 210, 212, 0.3),
+                  0 0 0 1.5rem rgba(173, 210, 212, 0.3);
+    }
+    100% {
+      box-shadow: 0 0 0 0.5rem rgba(173, 210, 212, 0.3),
+                  0 0 0 1rem rgba(173, 210, 212, 0.3),
+                  0 0 0 1.5rem rgba(173, 210, 212, 0.3),
+                  0 0 0 2rem rgba(173, 210, 212, 0);
+    }
   }
 
   .ipad {
