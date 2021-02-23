@@ -1,5 +1,12 @@
 {
     "projects": [
+        {
+            "project": "Japan Trip",
+            "link": "https://japantrip.rayhackshaw.com",
+            "description": "An interactive web-application which visualises a trip in Japan I took in late 2019. Built using Mapbox GL JS, GeoJSON, GoogleMaps API and Mapbox API, the route was plotted with interactive 'visited' city markings along the way. Clicking them would pan to each marker, displaying a pop-up infographic which would describe the city and our activities during our time there. It is currently functional with just text, however later in the future I would like to add image galleries to each city to allow the project to be bit more visually interactive.",
+            "repository": "https://github.com/Ray-Hackshaw/japantrip",
+            "preview": "assets/japantrip.png"
+          },
       {
         "project": "Celo Health Recruitment Challenge",
         "link": "assets/celo.pdf",
