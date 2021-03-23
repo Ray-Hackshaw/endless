@@ -1,12 +1,19 @@
 {
     "projects": [
         {
+            "project": "9Spokes Coding Challenge",
+            "link": "https://github.com/Ray-Hackshaw/coding-challenge",
+            "description": "I was invited to take part in a recruitment challenge for 9Spokes. We were tasked with forking a Github repository, using a pre-existing dataset and developing an application that would process and make subsequent calculations with that data. There was also an expectation to include some basic unit tests for the purposes of reusability and good understanding of best practices. The calculations themselves were all based on common accounting metrics; revenue, expenses, gross profit margin, net profit margin and working capital ratio. I opted to use JavaScript to develop a command line application for the challenge, using a vanilla Node environment with Mocha/Chai for my unit testing libraries. ",
+            "repository": "https://github.com/Ray-Hackshaw/japantrip",
+            "preview": "assets/9spokes.png"
+        },
+        {
             "project": "Japan Trip",
             "link": "https://japantrip.rayhackshaw.com",
             "description": "An interactive React web-application which visualises a trip in Japan I took in late 2019. Built using React, Mapbox GL JS, GeoJSON, GoogleMaps API and Mapbox API, the route was plotted with interactive 'visited' city markings along the way. Clicking them would pan to each marker, displaying a pop-up infographic which would describe the city and our activities during our time there. It is currently functional with just text, however later in the future I would like to add image galleries to each city to allow the project to be bit more visually interactive.",
             "repository": "https://github.com/Ray-Hackshaw/japantrip",
             "preview": "assets/japantrip.png"
-          },
+        },
       {
         "project": "Celo Health Recruitment Challenge",
         "link": "assets/celo.pdf",
