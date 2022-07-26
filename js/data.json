@@ -50,13 +50,6 @@
         "preview": "assets/goodbye2.gif"
       },
       {
-        "project": "'nights' - onlick and button hover experiments",
-        "link": "https://nights.rayhackshaw.com",
-        "description": "Testing basic button onclick and hover functionality with replacing HTML/CSS elements. I wanted something that implemented buttons with both onclick and hover changes. The button retrieves it's contents from a pre-defined array which, upon reaching it's end, changes to a 'final' text element which marks that you have reached the end of the array. After clicking this final button once more, the page resets and the array parsing begins again. The design could be much more efficient, and I wish to develop another version of this same idea however without taking such a naive approach. Another stipulation I have with this project is the lack of responsive mobile design/functionality. Coming back to this in the future to hopefully change and redesign this for both desktop and mobile compatability.",
-        "repository": "https://github.com/Ray-Hackshaw/nights-project",
-        "preview": "assets/nights2.png"
-      },
-      {
         "project": "readingsupply",
         "link": "https://reading.supply/@rhackshaw",
         "description": "I maintain and update a readingsupply account, which I use to write about or discuss any ideas I find interesting. These blog style pieces are not exclusively related to computer science. I try and maintain a stable balance between writing creatively as well as programming and logical problem solving. In this field it is particularly easy to become tunnel-visioned on one side of this equation, however I believe that a large part of what makes computer science so interesting is the relationship between humanity and computing and how the two shape one another.",
