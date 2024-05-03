@@ -2,7 +2,8 @@ import { NextPage } from "next";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useState } from "react";
-import Layout from "./components/ui/layout";
+import Layout from "./components/ui/Layout";
+import Head from "next/head";
 
 const projectsArray = [
   {
@@ -55,7 +56,7 @@ const HomePage: NextPage = () => {
   const [readMore, setReadMore] = useState(
     "max-h-[130px] md:max-h-full overflow-hidden"
   );
-  const [proj, setProject] = useState<Project | undefined>(undefined);
+  const [project, setProject] = useState<Project>();
   const [heightPrompt, setHeightPrompt] = useState<string>("Show more");
 
   // Todo: use a non-hacky solution later
@@ -73,15 +74,21 @@ const HomePage: NextPage = () => {
 
   return (
     <>
+      <Head>
+        <title>Portfolio</title>
+        <meta name="description" content="My digital portfolio" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Layout>
-        <main className="noise min-h-screen md:p-4 space-y-8">
-          <div className="sticky top-0 z-40 bg-black bg-opacity-70 text-[#fdfdaf] md:rounded-2xl overflow-hidden border-2 border-[#fdfdaf] md:max-w-lg mx-auto">
+        <main className="noise min-h-screen md:p-4 space-y-8 flex items-center justify-center">
+          <p className="text-[#fdfdaf] text-3xl">Under construction!</p>
+
+          {/* <div className="sticky top-0 z-40 bg-black bg-opacity-70 text-[#fdfdaf] md:rounded-2xl overflow-hidden border-2 border-[#fdfdaf] md:max-w-lg mx-auto">
             <p className="tracking-[1rem] text-center text-xl font-bold p-4 ">
               PORTFOLIO
             </p>
-          </div>
-
-          <div className="p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 max-w-7xl lg:mx-auto m-8 gap-4">
+          </div> */}
+          {/* <div className="p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 max-w-7xl lg:mx-auto m-8 gap-4">
             {projectsArray.map((project) => (
               <div
                 className="relative border-4 shadow-2xl cursor-pointer border-[#fdfdaf] h-72 rounded-xl overflow-hidden card active:border-[#fdc0ad]"
@@ -92,9 +99,9 @@ const HomePage: NextPage = () => {
                 <Image
                   src={project.image}
                   fill
-                  alt=""
+                  alt={project.title}
                   quality={100}
-                  objectFit="cover"
+                  className={"object-cover"}
                 />
                 <p className="absolute uppercase bottom-7 text-center text-xl text-black tracking-wider p-2 bg-[#fdfdaf] w-full">
                   {project.title}
@@ -104,14 +111,15 @@ const HomePage: NextPage = () => {
           </div>
 
           <div className="duration-200 sticky bottom-0 max-w-2xl mx-auto shadow-lg overlflow-hidden md:rounded-2xl p-4 leading-tight border-2 border-[#fdfdaf] space-y-4 bg-black bg-opacity-90 text-[#fdfdaf]">
-            {!proj ? (
+            {!project && (
               <>
                 <p className="font-semibold text-center ">
                   Welcome to my portfolio
                 </p>
                 <p>{defaultDescription}</p>
               </>
-            ) : (
+            )}
+            {project && (
               <div className="space-y-2 min-h-[200px] overflow-hidden">
                 <p
                   className="absolute top-2 right-2 p-2 text-white cursor-pointer"
@@ -119,8 +127,8 @@ const HomePage: NextPage = () => {
                 >
                   X
                 </p>
-                <p className="text-center text-2xl">{proj?.title}</p>
-                <p className={readMore}>{proj?.description}</p>
+                <p className="text-center text-2xl">{project.title}</p>
+                <p className={readMore}>{project.description}</p>
                 <div className="flex max-w-2xl mx-auto justify-between md:justify-end pt-2">
                   <button
                     onClick={() => handleHeightToggle()}
@@ -128,20 +136,18 @@ const HomePage: NextPage = () => {
                   >
                     {heightPrompt}
                   </button>
-                  {proj.href && (
+                  {project.href && (
                     <button
-                      onClick={() => router.replace(proj.href as string)}
+                      onClick={() => router.replace(project.href!)}
                       className="border-2 bg-opacity-70 hover:bg-opacity-100 duration-200 border-white text-[#fdfdaf] px-2 py-1 rounded-xl"
                     >
-                      Go to project &gt;&gt;
+                      Go to project &gt;
                     </button>
                   )}
                 </div>
               </div>
             )}
-          </div>
-
-          {/* <div className="sticky bottom-0 border-2 h-20">asdasdasd</div> */}
+          </div> */}
         </main>
       </Layout>
     </>
