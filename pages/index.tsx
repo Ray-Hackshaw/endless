@@ -79,7 +79,7 @@ const HomePage: NextPage = () => {
         <meta name="description" content="My digital portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout>
+      {/* <Layout> */}
         <main className="noise min-h-screen md:p-4 space-y-8 flex items-center justify-center">
           <p className="text-[#fdfdaf] text-3xl">Under construction!</p>
 
@@ -149,7 +149,7 @@ const HomePage: NextPage = () => {
             )}
           </div> */}
         </main>
-      </Layout>
+      {/* </Layout> */}
     </>
   );
 };
