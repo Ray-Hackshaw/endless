@@ -2,7 +2,6 @@ import { NextPage } from "next";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useState } from "react";
-import Layout from "./components/ui/Layout";
 import Head from "next/head";
 
 const projectsArray = [
@@ -80,15 +79,15 @@ const HomePage: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <Layout> */}
-        <main className="noise min-h-screen md:p-4 space-y-8 flex items-center justify-center">
-          <p className="text-[#fdfdaf] text-3xl">Under construction!</p>
+      <main className="noise min-h-screen md:p-4 space-y-8 flex items-center justify-center">
+        <p className="text-[#fdfdaf] text-3xl">Under construction!</p>
 
-          {/* <div className="sticky top-0 z-40 bg-black bg-opacity-70 text-[#fdfdaf] md:rounded-2xl overflow-hidden border-2 border-[#fdfdaf] md:max-w-lg mx-auto">
+        {/* <div className="sticky top-0 z-40 bg-black bg-opacity-70 text-[#fdfdaf] md:rounded-2xl overflow-hidden border-2 border-[#fdfdaf] md:max-w-lg mx-auto">
             <p className="tracking-[1rem] text-center text-xl font-bold p-4 ">
               PORTFOLIO
             </p>
           </div> */}
-          {/* <div className="p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 max-w-7xl lg:mx-auto m-8 gap-4">
+        {/* <div className="p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 max-w-7xl lg:mx-auto m-8 gap-4">
             {projectsArray.map((project) => (
               <div
                 className="relative border-4 shadow-2xl cursor-pointer border-[#fdfdaf] h-72 rounded-xl overflow-hidden card active:border-[#fdc0ad]"
@@ -148,7 +147,7 @@ const HomePage: NextPage = () => {
               </div>
             )}
           </div> */}
-        </main>
+      </main>
       {/* </Layout> */}
     </>
   );
